@@ -49,7 +49,7 @@ const Navbar = () => {
             <Link href="/#services">Testimonials</Link>
           </li>
           <li className="p-4 hover:border-b-4 m-2 rounded hover:border-teal-500 duration-150 ease-in ">
-            <Link href="/contact">Contact</Link>
+            <Link href="/#contact">Contact</Link>
           </li>
         </ul>
 
@@ -71,18 +71,30 @@ const Navbar = () => {
               : "sm:hidden fixed left-[-100%] inset-0 flex justify-center items-center w-full h-screen bg-black bg-opacity-10 backdrop-blur-md text-center ease-in duration-300"
           }
         >
-          <ul className="font-semibold">
-            <li className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105">
+          <ul style={{ color: textColor }} className="font-semibold">
+            <li
+              onClick={toggleMenu}
+              className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105"
+            >
               <Link href="/">Home</Link>
             </li>
-            <li className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105">
-              <Link href="/#about">About Us</Link>
+            <li
+              onClick={toggleMenu}
+              className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105"
+            >
+              <Link href="/about">About Us</Link>
             </li>
-            <li className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105">
-              <Link href="/services">Testimonials</Link>
+            <li
+              onClick={toggleMenu}
+              className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105"
+            >
+              <Link href="/#services">Testimonials</Link>
             </li>
-            <li className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105">
-              <Link href="/contact">Contact</Link>
+            <li
+              onClick={toggleMenu}
+              className="text-4xl p-4 hover:text-teal-500 ease-in-out duration-300 hover:scale-105"
+            >
+              <Link href="/#contact">Contact</Link>
             </li>
           </ul>
         </div>

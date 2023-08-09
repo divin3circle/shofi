@@ -13,19 +13,19 @@ export const test = [
   {
     name: "John",
     company: "Digital Congress Systems",
-    mess: "Working with Shofi Media was a very interesting experience. It was the best filming experience I've had in a while.",
+    mess: "Working with Shofi Media was a very interesting experience. It was the best filming experience I've had in a while. The amount of quality the team possessed was just staggering, not to mention the combined quality and quantity of experience. It was truly a great experience to worlk with Shofi Media Company.",
     img: "https://images.unsplash.com/photo-1621905252472-943afaa20e20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
   },
   {
     name: "Aisha",
     company: "Design Ltd Company",
-    mess: "A team of competent, experienced and fridenly people. I'm glad I chose Shofi Media.",
+    mess: "A team of competent, experienced and friendly people. We sat we the Shofi team after I had told them my ideas for the films and after listening carefully we were able to come up with the perfect film that not only reflected my ideas but at the same showcased quality I'm glad I chose Shofi Media.",
     img: "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
   },
   {
     name: "Jane",
     company: "World Food Program",
-    mess: "When it comes to filming experience, you can't go wrong with Shofi Media. They submitted a high quality film long before the deadline",
+    mess: "When it comes to filming experience, you can't go wrong with Shofi Media. They submitted a high quality film long before the deadline. I was very impressed with the quality of the film and the professionalism of the team. I would definitely recommend Shofi Media to anyone looking for a quality film.",
     img: "https://images.unsplash.com/photo-1526387780285-2d05a3a97f70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=740&q=80",
   },
 ];
