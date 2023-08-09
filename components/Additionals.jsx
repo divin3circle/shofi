@@ -72,6 +72,13 @@ const Additionals = () => {
           </div>
         </article>
       </div>
+      <div className="flex justify-center mt-4 mb-10 items-center">
+        <a href="https://wa.link/8qz1gw" target="_blank" rel="noreferrer">
+          <button className="border-2 border-black p-4 rounded-md text-xl font-bold hover:bg-black hover:text-white ease-in duration-150 hover:scale-95 ">
+            Learn More
+          </button>
+        </a>
+      </div>
     </>
   );
 };

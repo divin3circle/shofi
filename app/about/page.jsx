@@ -1,5 +1,6 @@
 import About from '@/components/About';
 import Additionals from '@/components/Additionals';
+import Cta from '@/components/Cta';
 import HeroAbout from '@/components/HeroAbout';
 import Navbar from '@/components/Navbar';
 import { AboutData } from "@/components/assets/AboutData";
@@ -14,6 +15,7 @@ const about = () => {
       />
       <About/>
       <Additionals/>
+      <Cta/>
     </div>
   );
 }

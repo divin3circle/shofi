@@ -13,9 +13,11 @@ const Hero = ({heading, message}) => {
           <h2 className="text-5xl font-bold">{heading}</h2>
         </div>
         <p className="text-2xl font-semibold py-5">{message}</p>
-        <button className="p-4 border-2 rounded-md font-semibold text-xl hover:bg-white hover:text-black duration-150 ease-in hover:scale-95">
-          Reserve Consultation
-        </button>
+        <a href="tel:0710474988">
+          <button className="p-4 border-2 rounded-md font-semibold text-xl hover:bg-white hover:text-black duration-150 ease-in hover:scale-95">
+            Reserve Consultation
+          </button>
+        </a>
       </div>
     </div>
   );
