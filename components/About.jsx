@@ -20,7 +20,7 @@ const About = () => {
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3 mx-auto max-w-[85%]">
             <div
-              className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group
+              className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group
             "
             >
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
@@ -55,7 +55,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group">
+            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group">
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
                 <svg
                   className="h-5 w-5"
@@ -80,7 +80,7 @@ const About = () => {
                   Technology
                 </h2>
 
-                <p className="mt-1 group-hover:text-white  group-hover:text-white ">
+                <p className="mt-1 group-hover:text-white">
                   We use the latest cutting-edge technology in the production of
                   artwork presentations and strive to keep abreast of
                   international products and standards.
@@ -88,7 +88,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group">
+            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group">
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
                 <svg
                   className="h-5 w-5"
@@ -121,7 +121,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group">
+            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group">
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
                 <svg
                   className="h-5 w-5"
@@ -154,7 +154,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group">
+            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group">
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
                 <svg
                   className="h-5 w-5"
@@ -187,7 +187,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-black group">
+            <div className="flex items-start gap-4 shadow-xl p-2 rounded-lg hover:scale-95 ease-in duration-150 cursor-pointer hover:bg-rose-500 group">
               <span className="shrink-0 rounded-lg bg-gray-300 p-4">
                 <svg
                   className="h-5 w-5"

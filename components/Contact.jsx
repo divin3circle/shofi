@@ -32,7 +32,7 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
-                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm md:text-lg rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 "
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm md:text-lg rounded-lg focus:ring-rose-500 focus:border-rose-500 block w-full p-2.5 "
                 placeholder="Enter your email"
                 required=""
               />
@@ -70,7 +70,7 @@ const Contact = () => {
             <button
             onClick={notify}
               type="submit"
-              className="py-3 px-5 text-sm text-center text-black md:text-lg rounded-lg bg-primary-700 sm:w-fit hover:bg-black hover:text-white ease-in duration-100 hover:scale-105 focus:ring-4 focus:outline-none focus:ring-primary-300 border-2 border-black font-semibold"
+              className="py-3 px-5 text-sm text-center text-black md:text-lg rounded-lg bg-primary-700 sm:w-fit hover:bg-rose-500 hover:text-white ease-in duration-100 hover:scale-105 focus:ring-4 focus:outline-none focus:ring-primary-300 border-2 border-rose-500 font-semibold"
             >
               Send message
             </button>

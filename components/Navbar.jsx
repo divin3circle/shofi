@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { useEffect, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FcFilmReel } from "react-icons/fc";
 
 const Navbar = () => {
     const [menu, setMenu] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
         const changeColor = () =>{
             if(window.scrollY >= 90){
                 setColor("white")
-                setTextColor("black")
+                setTextColor("#CD7687");
             }else{
                 setColor("transparent")
                 setTextColor("white")
@@ -34,8 +35,9 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: textColor }} className="font-bold text-6xl">
+          <h1 style={{ color: textColor }} className="font-bold text-5xl flex">
             Shofi.
+            <FcFilmReel size={44} />
           </h1>
         </Link>
         <ul style={{ color: textColor }} className="sm:flex hidden text-2xl">

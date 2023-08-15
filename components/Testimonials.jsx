@@ -53,7 +53,7 @@ const Testimonials = () => {
                     <h1 className="font-semibold text-2xl p-2 ">{item.name}</h1>
                     <h2 className="text-xl p-2">{item.company}</h2>
                     <p className="text-lg leading-10 font-semibold">{item.mess}</p>
-                    <div className="flex mt-4 md:mt-8 justify-center gap-4">
+                    <div className="flex mt-4 md:mt-8 justify-center gap-4 text-rose-500">
                         <AiFillFacebook size={30} className="hover:scale-105 cursor-pointer duration-150 ease-in" />
                         <AiFillYoutube size={30} className="hover:scale-105 cursor-pointer duration-150 ease-in"/>
                         <AiFillInstagram size={30} className="hover:scale-105 cursor-pointer duration-150 ease-in" />

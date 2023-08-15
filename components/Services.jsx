@@ -17,7 +17,7 @@ const Services = () => {
         {servicesData.map((item, index) => (
           <div
             key={index}
-            className="flex justify-start items-center sm:gap-2 md:gap-3 bg-rose-200 p-2 m-2 rounded-lg shadow-lg hover:shadow-xl hover:bg-black hover:text-white cursor-pointer transition duration-300 ease-in-out"
+            className="flex justify-start items-center sm:gap-2 md:gap-3 bg-rose-200 p-2 m-2 rounded-lg shadow-lg hover:shadow-xl hover:bg-rose-600 hover:text-white cursor-pointer transition duration-300 ease-in-out"
           >
             <h1 className="text-xl font-semibold">{item.name}</h1>
             <GiFilmProjector />
@@ -26,7 +26,7 @@ const Services = () => {
       </div>
       <div className="flex justify-center items-center mt-4 ">
         <a href="https://wa.link/8qz1gw" target="_blank" rel="noreferrer">
-        <button className="border-2 border-black p-4 rounded-md text-xl font-bold hover:bg-black hover:text-white ease-in duration-150 hover:scale-95 ">Learn More</button>
+        <button className="border-2 border-rose-500 p-4 rounded-md text-xl font-bold hover:bg-rose-500 hover:text-white ease-in duration-150 hover:scale-95 ">Learn More</button>
         </a>
       </div>
     </div>

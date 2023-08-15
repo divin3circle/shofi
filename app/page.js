@@ -12,6 +12,7 @@ export default function Home() {
       <Hero
         heading=" Short Films Media"
         message="A Documented World From an Excellent Media Solution"
+        about="About Us"
       />
       <Testimonials />
       <Services />
