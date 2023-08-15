@@ -21,7 +21,7 @@ const Cta = () => {
 
             <div class="mt-4 md:mt-8">
               <a
-                href="#tel:00989123456789"
+                href="tel:0710474988"
                 class="inline-block rounded bg-rose-500 px-12 py-3 text-sm md:text-lg font-medium text-black transition hover:bg-transparent  focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Get Started Today
