@@ -41,16 +41,16 @@ const Navbar = () => {
           </h1>
         </Link>
         <ul style={{ color: textColor }} className="sm:flex hidden text-2xl">
-          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-teal-500 duration-150 ease-in ">
+          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-rose-500 duration-150 ease-in ">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-teal-500 duration-150 ease-in ">
+          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-rose-500 duration-150 ease-in ">
             <Link href="/about">About</Link>
           </li>
-          <li className="p-4  hover:border-b-4 m-2 rounded hover:border-teal-500 duration-150 ease-in ">
+          <li className="p-4  hover:border-b-4 m-2 rounded hover:border-rose-500 duration-150 ease-in ">
             <Link href="/#services">Testimonials</Link>
           </li>
-          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-teal-500 duration-150 ease-in ">
+          <li className="p-4 hover:border-b-4 m-2 rounded hover:border-rose-500 duration-150 ease-in ">
             <Link href="/#contact">Contact</Link>
           </li>
         </ul>
